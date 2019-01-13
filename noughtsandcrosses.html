@@ -17,22 +17,31 @@
     </head>
     <body>
         Click to play Noughts and Crosses.
+        <br /><br />
+        <script>
+            alert("Are you ready to play?");
+        </script>
         <div>
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div onClick="place(this)"></div>
+                <div onClick="place(this)"></div>
+                <div onClick="place(this)"></div>
             </div>
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div onClick="place(this)"></div>
+                <div onClick="place(this)"></div>
+                <div onClick="place(this)"></div>
             </div>
             <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div onClick="place(this)"></div>
+                <div onClick="place(this)"></div>
+                <div onClick="place(this)"></div>
             </div>
         </div>
+        <script>
+            function place(box) {
+                alert("Your clicked here!");
+            }
+        </script>
     </body>
 </html>
