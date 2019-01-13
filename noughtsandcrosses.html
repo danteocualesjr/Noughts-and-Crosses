@@ -41,6 +41,7 @@
         <script>
             let currentPlayer = "O";
             function place(box) {
+                if(box.innerText != "") return;
                 box.innerText = currentPlayer;
                 if(currentPlayer == "O") {
                     currentPlayer = "X";
